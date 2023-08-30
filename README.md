@@ -39,8 +39,17 @@ falcon_client=http://127.0.0.1:1988/v1/push # falcon agent连接地址
 [[mysql]]
 user=root # 数据库用户名
 password=1tIsB1g3rt # 您的数据库密码
-host=127.0.0.1 # 数据库连接地址
+host=192.168.1.1 # 数据库连接地址
 port=3306 # 数据库端口
+endpoint=db-bj-test-st-payment-1 #上报的endpoint
+
+[[mysql]]
+user=root # 数据库用户名
+password=1tIsB1g3rt # 您的数据库密码
+host=192.168.1.2 # 数据库连接地址
+port=3306 # 数据库端口
+endpoint=db-bj-test-st-payment-2 #上报的endpoint
+
 ```
 
 ## Metric
